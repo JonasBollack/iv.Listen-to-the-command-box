@@ -137,7 +137,7 @@
     </div>
     <button id="runBtn">执行</button>
     <button id="randomBtn">随机障碍物</button>
-    <button id="test">test</button>
+    <button id="test" style="display: none">test</button>
     <div class="tittle">
     <ul>
     	<li>在输入框中允许输入如下指令，按下按钮后，使得正方形做相应动作</li>
@@ -157,6 +157,9 @@
         <li>MOV TOP：方向转向屏幕上面，向屏幕的上面移动一格</li>
         <li>MOV RIG：方向转向屏幕右侧，向屏幕的右侧移动一格</li>
         <li>MOV BOT：方向转向屏幕下面，向屏幕的下面移动一格</li>
+        <li>新增粉刷的指令，BRU color，color是一个字符串，保持和css中颜色编码一致。执行指令时，如果当前方块蓝色边面对方向有紧相邻的墙，则将这个墙颜色改为参数颜色，如果没有，则通过调用浏览器的console.log方法，打印一个错误日志</li>
+        <li>新增一个按钮，可以在空间内随机生成一些墙</li>
+        <li>新增MOV TO X,Y指令，可以自动寻路到指定坐标</li>
     </ul></div>
 
 
