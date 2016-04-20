@@ -1,0 +1,78 @@
+*{
+	padding: 0;
+	margin:0;
+}
+table tbody tr td{
+	width: 60px;
+	height: 60px;
+	border:1px solid black;
+}
+table{
+	border-collapse: collapse;
+	float: left;
+	position: relative;
+}
+input{
+	margin-left: 16px;
+	width: 500px;
+	height: 33px
+}
+button{
+	width: 100px;
+	height: 40px;
+	background-color: rgb(97,205,255);
+	border-style: hidden;
+	border-radius: 10px;
+    margin-left: 10px;
+}
+.bottom div{
+    width: 100%;
+    height: 15px;
+	position: absolute;
+	bottom:0;
+}
+
+.tittle{
+    width: 900px;
+    margin:10px 0 0 660px;
+    line-height: 1em;
+    font-size: 24px;
+}
+.action{
+	transition: all 1s;
+}
+.show-row{
+	overflow-y:scroll;
+	width: 40px;
+	height: 200px;
+	float: left;
+    border: 1px solid blue;
+}
+.rol-el{
+	text-align: center;
+    line-height: 24px;
+    font-size: 24px;
+}
+textarea{
+	width: 400px;
+	height: 200px;
+	max-width: 400px;
+	max-height: 200px;
+	overflow-y: scroll;
+	font-size: 24px;
+	line-height: 24px;
+}
+#userIn{
+	margin-left: 620px;
+}
+._addDiv{
+	background-color: #555;
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+}
+
+
+
+
+
